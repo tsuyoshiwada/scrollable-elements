@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <style type="text/css">
+    body {
+      font-family: sans-sefi;
+    }
+
+    #set {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+    }
+
+    .scrollable {
+      margin: 60px 0;
+      overflow: hidden;
+      width: 500px;
+      height: 500px;
+      background: #ccc;
+      text-align: center;
+    }
+
+    .scrollable-x {
+      overflow-x: scroll;
+    }
+
+    .scrollable-x > div {
+      width: 800px;
+      line-height: 500px;
+    }
+
+    .scrollable-y {
+      overflow-y: scroll;
+    }
+
+    .scrollable-y > div {
+      height: 800px;
+      line-height: 800px;
+    }
+  </style>
+</head>
+<body>
+  <button type="button" id="set">Set scroll position</button>
+  <h1>Scrollable Elements</h1>
+  <p>Scroll to half size. All scrollable elements.</p>
+  <p><a href="https://github.com/tsuyoshiwada/scrollable-elements/">Source on GitHub</a></p>
+
+  <div id="x1" class="scrollable scrollable-x"><div>X1</div></div>
+  <div id="x2" class="scrollable scrollable-x"><div>X2</div></div>
+  <div id="x3" class="scrollable scrollable-x"><div>X3</div></div>
+
+  <div id="y1" class="scrollable scrollable-y"><div>Y1</div></div>
+  <div id="y2" class="scrollable scrollable-y"><div>Y2</div></div>
+  <div id="y3" class="scrollable scrollable-y"><div>Y3</div></div>
+
+  <p>Footer</p>
+  <script src="./app.bundle.js"></script>
+</body>
+</html>

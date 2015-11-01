@@ -1,0 +1,31 @@
+<style type="text/css">
+  .scrollable {
+    overflow:hidden;
+    width:500px;
+    height:500px;
+  }
+
+  .scrollable-x {
+    overflow-x:scroll;
+  }
+
+  .scrollable-x > div {
+    width:1000px;
+  }
+
+  .scrollable-y {
+    overflow-y:scroll;
+  }
+
+  .scrollable-y > div {
+    height:1000px;
+  }
+</style>
+
+<div id="x1" class="scrollable scrollable-x"><div>X1</div></div>
+<div id="x2" class="scrollable scrollable-x"><div>X2</div></div>
+<div id="x3" class="scrollable scrollable-x"><div>X3</div></div>
+
+<div id="y1" class="scrollable scrollable-y"><div>Y1</div></div>
+<div id="y2" class="scrollable scrollable-y"><div>Y2</div></div>
+<div id="y3" class="scrollable scrollable-y"><div>Y3</div></div>

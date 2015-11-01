@@ -1,0 +1,29 @@
+{
+  "name": "scrollable-elements",
+  "version": "0.0.1",
+  "description": "Get scrollable elements in specified selector",
+  "main": "scrollable-elements.js",
+  "scripts": {
+    "build": "npm run lint && npm run test",
+    "lint": "eslint scrollable-elements.js",
+    "test": "karma start --single-run",
+    "dev": "karma start"
+  },
+  "author": "tsuyoshiwada",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.2.0",
+    "babel-plugin-espower": "^1.0.0",
+    "babelify": "^6.4.0",
+    "eslint": "^1.8.0",
+    "karma": "^0.13.14",
+    "karma-browserify": "^4.4.0",
+    "karma-fixture": "^0.2.5",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18",
+    "power-assert": "^1.1.0"
+  }
+}
