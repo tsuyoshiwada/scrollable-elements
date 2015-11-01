@@ -27,7 +27,7 @@ $ npm install scrollable-elements
 **selectors: String**  
 **direction: String("x" | "y") Default("y")**
 
-Get all of scrollable elements within the element.  
+Get all scrollable elements from in specified selector.  
 It returns an empty array if the element is not found.
 
 ```javascript
@@ -42,7 +42,7 @@ console.log(elements); // [Element, Element, ...]
 **selectors: String**  
 **direction: String("x" | "y") Default("y")**
 
-Get all of scrollable elements within the element.  
+Get first found scrollable element in specified selector.  
 It returns an undefined if the element is not found.
 
 ```javascript
