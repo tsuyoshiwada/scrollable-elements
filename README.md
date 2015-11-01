@@ -1,6 +1,8 @@
 scrollable-elements
 ===================
 
+[![Build Status](http://img.shields.io/travis/tsuyoshiwada/scrollable-elements.svg?style=flat-square)](https://travis-ci.org/tsuyoshiwada/scrollable-elements)
+[![npm version](https://img.shields.io/npm/v/scrollable-elements.svg?style=flat-square)](http://badge.fury.io/js/scrollable-elements)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/tsuyoshiwada/scrollable-elements/master/LICENSE)
 
 Get scrollable elements in specified selector.  
