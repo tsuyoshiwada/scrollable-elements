@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/tsuyoshiwada/scrollable-elements",
   "devDependencies": {
-    "babel": "^5.2.0",
     "babel-plugin-espower": "^1.0.0",
     "babelify": "^6.4.0",
     "eslint": "^1.8.0",
