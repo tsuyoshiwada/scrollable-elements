@@ -48,7 +48,7 @@ It returns an undefined if the element is not found.
 ```javascript
 import {find} from "scrollable-elements"
 
-const element = findAll(".scrollable");
+const element = find(".scrollable");
 console.log(element); // Element
 ```
 
